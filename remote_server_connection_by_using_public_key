@@ -1,1 +1,18 @@
+Open the local server terminal.
+
+ssh-keyscan -t rsa remote_server_ip_or_hostname
+
+1- 
+
+ssh-keyscan -t rsa remote_server_ip_or_hostname >> ~/.ssh/known_hosts
+
+cat ~/.ssh/known_hosts
+
+ssh user@remote_server_ip_or_hostname
+
+ssh-keygen -R remote_server_ip_or_hostname
+
+
+
+
 
