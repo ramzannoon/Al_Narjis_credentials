@@ -30,6 +30,9 @@ ssh -i /path/to/your/private_key username@remote_server_ip
 
 ssh -i C:/Users/Dell/.ssh/id_ed25519 root@165.22.216.173
 
+ssh -i C:/Users/Dell/.ssh/id_ed25519 root@165.22.216.173
+
+
 
 
 
